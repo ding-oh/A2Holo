@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/PyG-2.7-3C2179" alt="PyG">
   <img src="https://img.shields.io/badge/license-Apache%202.0-D22128" alt="License">
   <img src="https://img.shields.io/badge/D3PM-C0591B" alt="D3PM benchmark">
-  <img src="https://img.shields.io/badge/status-anonymous%20submission-6E7781" alt="Submission">
 </p>
 
 **Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for
@@ -42,7 +41,7 @@ sequence and structure are residue-aligned, its joint attention can be measured 
 resolution and tested for reproducibility across independently trained model variants. The code
 for those measurements is in `analysis/` (see [Mechanism analyses](#mechanism-analyses)).
 
-This is the anonymous code release accompanying our submission. It holds the code to train the
+This is the code release accompanying our paper. It holds the code to train the
 model with the reported recipe and to evaluate a checkpoint exactly as its Table 1 row, the step
 comparison and the TM-scores were measured. A new training is a new draw of that recipe: five trainings of it (seeds 1 to 5) span
 medians of 0.761 to 0.836 Å. Preprocessed tensors are not included; the trained checkpoints are
@@ -340,7 +339,7 @@ CHECKPOINTS.md                  the trained checkpoints and how each one is eval
 
 ## Weights
 
-The trained checkpoints are not part of this snapshot: [download them](https://drive.google.com/drive/folders/1YFTKxH1YVJHKMlWIu16oKxbJewJGXuvi?usp=sharing);
+The trained checkpoints are not part of this repository: [download them](https://drive.google.com/drive/folders/1YFTKxH1YVJHKMlWIu16oKxbJewJGXuvi?usp=sharing);
 [CHECKPOINTS.md](CHECKPOINTS.md) lists them. Everything here also trains from scratch.
 
 Also not here: the rendering scripts of the other two figures; baseline implementations, better
@@ -348,9 +347,4 @@ taken from their own repositories (SBAlign, FDBM, EGNN); preprocessed tensors; e
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE). The copyright line reads
-"Anonymous Authors" for the duration of review.
-
-## Anonymity
-
-This snapshot carries no author, institution or infrastructure information.
+Apache License 2.0 — see [LICENSE](LICENSE).
