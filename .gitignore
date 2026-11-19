@@ -1,0 +1,17 @@
+# Data and derived artifacts (the split file data/d3pm_splits.json is tracked)
+data/d3pm/
+data/sbalign/
+checkpoints/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

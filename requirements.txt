@@ -1,0 +1,24 @@
+# PyTorch CUDA 13.0 wheels. --extra-index-url keeps PyPI as the primary index (--index-url would
+# replace it); drop this line for another CUDA version or for CPU.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch
+torch_geometric
+einops
+numpy
+scipy
+tqdm
+
+# Ankh3-large embeddings (and ESM-2 650M)
+transformers
+sentencepiece
+protobuf
+# ESM-C 300M embeddings, only for the ESM-C model (scripts/embed_esm.py)
+esm
+
+# Cβ extraction through SBAlign's structure helpers
+biopython
+biopandas
+pandas
+
+# The animated attention figure (analysis/attention_gif.py)
+matplotlib
