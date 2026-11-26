@@ -1,6 +1,7 @@
 # A2Holo
 
 <p align="center">
+  <a href="https://doi.org/10.64898/2026.11.20.768033"><img src="https://img.shields.io/badge/bioRxiv-2026.11.20.768033-B31B1B" alt="bioRxiv"></a>
   <img src="https://img.shields.io/badge/python-3.12-3776AB?logo=python&amp;logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/pytorch-2.10-EE4C2C?logo=pytorch&amp;logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/PyG-2.7-3C2179" alt="PyG">
@@ -41,7 +42,7 @@ sequence and structure are residue-aligned, its joint attention can be measured 
 resolution and tested for reproducibility across independently trained model variants. The code
 for those measurements is in `analysis/` (see [Mechanism analyses](#mechanism-analyses)).
 
-This is the code release accompanying our paper. It holds the code to train the
+This is the code release accompanying [our paper](https://doi.org/10.64898/2026.11.20.768033). It holds the code to train the
 model with the reported recipe and to evaluate a checkpoint exactly as its Table 1 row, the step
 comparison and the TM-scores were measured. A new training is a new draw of that recipe: five trainings of it (seeds 1 to 5) span
 medians of 0.761 to 0.836 Å. Preprocessed tensors are not included; the trained checkpoints are
@@ -344,6 +345,28 @@ The trained checkpoints are not part of this repository: [download them](https:/
 
 Also not here: the rendering scripts of the other two figures; baseline implementations, better
 taken from their own repositories (SBAlign, FDBM, EGNN); preprocessed tensors; embeddings.
+
+## Citation
+
+If you use A2Holo, please cite:
+
+> Dongwoo Kim\*, Haelyn Kim\*, Jaemin Sim, Minjong Kim, Myunghyun Jang, Juyong Lee.
+> A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for
+> Conformational Transition Prediction. *bioRxiv* (2026).
+> https://doi.org/10.64898/2026.11.20.768033
+>
+> \* Equal contribution.
+
+```bibtex
+@article{kim2026a2holo,
+  title   = {A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for Conformational Transition Prediction},
+  author  = {Kim, Dongwoo and Kim, Haelyn and Sim, Jaemin and Kim, Minjong and Jang, Myunghyun and Lee, Juyong},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.11.20.768033},
+  url     = {https://doi.org/10.64898/2026.11.20.768033}
+}
+```
 
 ## License
 

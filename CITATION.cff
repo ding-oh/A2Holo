@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "A2Holo"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/ding-oh/A2Holo"
+authors:
+  - family-names: Kim
+    given-names: Dongwoo
+    orcid: "https://orcid.org/0009-0000-6141-060X"
+  - family-names: Kim
+    given-names: Haelyn
+    orcid: "https://orcid.org/0009-0004-6369-0181"
+  - family-names: Sim
+    given-names: Jaemin
+  - family-names: Kim
+    given-names: Minjong
+  - family-names: Jang
+    given-names: Myunghyun
+  - family-names: Lee
+    given-names: Juyong
+    orcid: "https://orcid.org/0000-0003-1174-4358"
+preferred-citation:
+  type: article
+  title: "A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for Conformational Transition Prediction"
+  authors:
+    - family-names: Kim
+      given-names: Dongwoo
+      orcid: "https://orcid.org/0009-0000-6141-060X"
+    - family-names: Kim
+      given-names: Haelyn
+      orcid: "https://orcid.org/0009-0004-6369-0181"
+    - family-names: Sim
+      given-names: Jaemin
+    - family-names: Kim
+      given-names: Minjong
+    - family-names: Jang
+      given-names: Myunghyun
+    - family-names: Lee
+      given-names: Juyong
+      orcid: "https://orcid.org/0000-0003-1174-4358"
+  journal: bioRxiv
+  year: 2026
+  month: 11
+  doi: "10.64898/2026.11.20.768033"
+  url: "https://doi.org/10.64898/2026.11.20.768033"
