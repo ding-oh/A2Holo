@@ -350,12 +350,12 @@ taken from their own repositories (SBAlign, FDBM, EGNN); preprocessed tensors; e
 
 If you use A2Holo, please cite:
 
-> Dongwoo Kim\*, Haelyn Kim\*, Jaemin Sim, Minjong Kim, Myunghyun Jang, Juyong Lee.
+> Dongwoo Kim\*, Haelyn Kim\*, Jaemin Sim, Minjong Kim, Myunghyun Jang, Juyong Lee†.
 > A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for
 > Conformational Transition Prediction. *bioRxiv* (2026).
 > https://doi.org/10.64898/2026.11.20.768033
 >
-> \* Equal contribution.
+> \* Equal contribution. † Corresponding author.
 
 ```bibtex
 @article{kim2026a2holo,
